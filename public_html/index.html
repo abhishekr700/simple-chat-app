@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>My Title</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <!-- Project CSS -->
+    <link rel="stylesheet" href="css/styles.css" >
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery.js" ></script>
+    <script src="js/tether.js" ></script>
+    <script src="js/bootstrap.js" ></script>
+    <!-- Project JS -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js" ></script>
+</head>
+<body>
+<div class="jumbotron-fluid jumbotron bg-success text-center" id="header">
+    <p class="display-4">Chat via Sockets</p>
+</div>
+<div class="container">
+
+    <div id="input-box">
+        <input type="text" class="col-8" id="msg">
+        <input type="button" class="btn btn-outline-primary col-1" value="Send" id="sendbtn">
+    </div>
+    <div id="chat-msg-box">
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+#header{
+    padding: 10px;
+}
+#chat-msg-box{
+    overflow: scroll;
+    max-height: 70vh;
+
+}
