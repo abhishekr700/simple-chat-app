@@ -1,15 +1,25 @@
 {
   "name": "chat-self",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Abhishek Ranjan",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3",
     "socket.io": "^2.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekr700/simple-chat-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhishekr700/simple-chat-app/issues"
+  },
+  "homepage": "https://github.com/abhishekr700/simple-chat-app#readme",
+  "description": ""
 }
