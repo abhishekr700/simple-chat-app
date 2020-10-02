@@ -4,5 +4,5 @@
 #chat-msg-box{
     overflow: scroll;
     max-height: 70vh;
-
+    max-width: 80vh;
 }
